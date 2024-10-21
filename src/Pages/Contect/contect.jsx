@@ -4,7 +4,6 @@ import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const form = useRef();
-  console.log(form.current);
   const [done, setDone] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
@@ -13,7 +12,6 @@ const Contact = () => {
         "service_uf7oys4",
         "template_d1mjlxq",
         form.current,
-
         "9_tQEBE0j0JQAENQc"
       )
       .then(

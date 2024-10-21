@@ -4,7 +4,8 @@ import HeartEmoji from "../img/download (1).jpg";
 import UiUX from "../img/download.jpg";
 import developer from "../img/images (2).jpg";
 import { motion } from "framer-motion";
-import Resume from "./Ranjith_New Resume.pdf";
+import Resume from "./experienceResume.pdf";
+// import resume from "./"
 
 const Services = () => {
   // transition

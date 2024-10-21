@@ -56,10 +56,11 @@
 }
 .i-right > :nth-child(1) {
   margin-left: 10vh;
-  width: 70vh;
-  height: 70vh;
-  left: -15%;
-  top: -9%;
+  width: 19vh;
+  height: 20vh;
+  left: 36%;
+  top: 13%;
+  border-radius: 10vh
 }
 .web-dev {
   background: white;

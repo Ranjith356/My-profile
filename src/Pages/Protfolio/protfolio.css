@@ -21,6 +21,8 @@
 /* slider */
 .portfolio .swiper {
   overflow: visible !important;
+  overflow-x: scroll !important;
+  scrollbar-width: none;
 }
 
 .portfolio-slider {
@@ -35,4 +37,8 @@
   width: 19rem;
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
   border-radius: 19px;
+}
+#portfolio > div > div > div.swiper-slide.swiper-slide-next > img ,#portfolio > div > div > div:nth-child(3) > img,#portfolio > div > div > div.swiper-slide.swiper-slide-active > img{
+  width: 45vh;
+  height: 32.5vh;
 }

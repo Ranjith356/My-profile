@@ -2,7 +2,7 @@
 import "./intro.css";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
-import boy from "../img/ranjithphoto.png";
+import boy from "../img/pi7_passport_photo.jpeg";
 import Github from "../img/github.png";
 import LinkedIn from "../img/linkedin.png";
 import Instagram from "../img/instagram.png";
